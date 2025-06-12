@@ -1,40 +1,48 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Devnaam/PathFinder-/main/public/logo.png" alt="PathFinder Logo" width="150"/>
-  <h1>PathFinder: Your AI-Powered Career Compass</h1>
-  <p>Craft professional resumes and explore personalized career paths with intelligent insights.</p>
+<h1>PathFinder: Your AI-Powered Career Compass</h1>
+<p>explore personalized career paths and roadmap with intelligent insights.</p>
 
-  <p>
-    <a href="https://github.com/Devnaam/PathFinder-/actions/workflows/deploy.yml">
-      <img src="https://github.com/Devnaam/PathFinder-/actions/workflows/deploy.yml/badge.svg" alt="Deploy Status">
-    </a>
-    <a href="https://github.com/Devnaam/PathFinder-/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/Devnaam/PathFinder-?color=blue" alt="Contributors">
-    </a>
-    <a href="https://github.com/Devnaam/PathFinder-/stargazers">
-      <img src="https://img.shields.io/github/stars/Devnaam/PathFinder-?style=social" alt="GitHub stars">
-    </a>
-    <a href="https://github.com/Devnaam/PathFinder-/issues">
-      <img src="https://img.shields.io/github/issues/Devnaam/PathFinder-?color=red" alt="Issues">
-    </a>
-  </p>
+<p>
+  <a href="https://github.com/Devnaam/PathFinder-/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Devnaam/PathFinder-?color=blue" alt="Contributors">
+  </a>
+  <a href="https://github.com/Devnaam/PathFinder-/stargazers">
+    <img src="https://img.shields.io/github/stars/Devnaam/PathFinder-?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/Devnaam/PathFinder-/issues">
+    <img src="https://img.shields.io/github/issues/Devnaam/PathFinder-?color=red" alt="Issues">
+  </a>
+</p>
 
-  <p>
-    <a href="https://path-finder-ochre-pi.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Live%20Demo-Visit%20App-30363D?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo Button">
-    </a>
-    <a href="https://github.com/Devnaam/PathFinder-.git" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub%20Repo-Explore%20Code-30363D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo Button">
-    </a>
-  </p>
+<p>
+  <a href="https://path-finder-ochre-pi.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20App-30363D?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo Button">
+  </a>
+  <a href="https://github.com/Devnaam/PathFinder-.git" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Repo-Explore%20Code-30363D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo Button">
+  </a>
+</p>
 </div>
 
 ---
 
 ## 🚀 About the Project
 
-**PathFinder** is a smart, AI-powered web application designed to help users craft professional resumes and explore personalized career paths with ease. Whether you're a student, job-seeker, or working professional, PathFinder gives you the tools to understand where you are in your career—and where you can go.
+PathFinder is an intelligent, AI-powered platform where anyone can discover and navigate their career journey. Whether you're a student, job seeker, or curious learner, PathFinder helps you:
 
-It combines a modern resume builder with a career roadmap generator using Google’s Gemini AI to provide suggestions, insights, and automation, all in a beautiful, responsive interface.
+📍 Find the right career path based on your interests and skills.
+
+🧱 Explore detailed roadmaps for any skill or profession, step-by-step.
+
+📚 Access curated open-source resources to help you learn efficiently and affordably.
+
+🤖 Use AI suggestions (powered by Google’s Gemini API) to enhance your resume, skillset, and learning journey.
+
+📝 Build a stunning, professional resume using customizable templates and AI-generated content.
+
+🧪 Take a Career Quiz to discover roles you're naturally suited for—even if you're unsure where to begin!
+
+🧠 Think of PathFinder as your personal AI career mentor — guiding you from where you are to where you could be.
 
 ---
 
@@ -42,16 +50,7 @@ It combines a modern resume builder with a career roadmap generator using Google
 
 PathFinder is packed with powerful modules to guide you on your career journey:
 
-* 📄 **Resume Builder:**
-    * **Diverse Templates:** Select from multiple beautifully designed, industry-specific templates (creative, technical, minimalist, corporate).
-    * **Structured Forms:** Easy-to-fill sections for personal information, education, work experience, professional summary, responsibilities & achievements, and skills.
-    * **AI-Powered Suggestions:** Leverage Gemini AI for auto-generating summaries, suggesting bullet points for experience, and recommending skills.
-    * **Customization:** Choose color schemes, fonts, toggle layout blocks, and switch between light/dark mode.
-    * **Export Options:** Download your resume as PDF, Word, or Plain Text with real-time preview.
-
-* 🔬 **AI Analysis & Job Matching:**
-    * **Resume Analysis:** Get professional improvement suggestions for your resume powered by Gemini AI.
-    * **Tailored Job Matches:** Receive relevant job recommendations based on your resume content.
+* * **Tailored Job Matches:** Receive relevant job recommendations based on your resume content.
 
 * 🌐 **Career Path Explorer:**
     * **Dynamic Roadmaps:** Search for any job title (e.g., "UX Designer", "Cybersecurity Analyst") and instantly view an overview of the career, required skills, certifications, and a visual career roadmap.
@@ -79,9 +78,6 @@ PathFinder is built with a modern and robust set of technologies:
 | **State Mgmt** | ![Context API](https://img.shields.io/badge/Context_API-0288D1?style=for-the-badge&logo=react&logoColor=white)                                                                                                                                |
 | **Form Handling** | ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white)                                                                                                                  |
 | **AI Backend** | ![Google Gemini API](https://img.shields.io/badge/Google_Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white) (v1beta - gemini-2.0-flash)                                                                                      |
-| **PDF Export** | ![html2pdf.js](https://img.shields.io/badge/html2pdf.js-D84315?style=for-the-badge&logo=javascript&logoColor=white) ![jsPDF](https://img.shields.io/badge/jsPDF-B71C1C?style=for-the-badge&logo=javascript&logoColor=white)                      |
-| **DOCX Export** | ![PizZip](https://img.shields.io/badge/PizZip-009688?style=for-the-badge&logo=npm&logoColor=white) ![docxtemplater](https://img.shields.io/badge/docxtemplater-4CAF50?style=for-the-badge&logo=npm&logoColor=white)                          |
-| **File Parser** | ![mammoth.js](https://img.shields.io/badge/mammoth.js-FFC107?style=for-the-badge&logo=javascript&logoColor=black) ![pdf-parse](https://img.shields.io/badge/pdf--parse-FF9800?style=for-the-badge&logo=javascript&logoColor=black)      |
 
 ---
 
