@@ -84,7 +84,9 @@ PathFinder is built with a modern and robust set of technologies:
 ## 📸 Screenshots or GIFs
 
 ![App Screenshot](/images/image1.png)]
+---
 ![App Screenshot](/images/image2.png)
+---
 ![App Screenshot](/images/image3.png)
 
 
