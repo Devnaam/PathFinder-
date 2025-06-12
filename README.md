@@ -83,7 +83,11 @@ PathFinder is built with a modern and robust set of technologies:
 
 ## 📸 Screenshots or GIFs
 
-*(Please add screenshots or GIFs here to showcase your application's UI and functionality. You can replace this text with image links or embed GIFs directly.)*
+![App Screenshot](/images/image1.png)]
+![App Screenshot](/images/image2.png)
+![App Screenshot](/images/image3.png)
+
+
 
 ---
 
