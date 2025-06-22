@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Twitter, Linkedin } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -12,17 +12,16 @@ export default function Footer() {
               Transform your skills into a complete career journey with personalized roadmaps and resources.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-primary">
+              <Link href="https://github.com/Devnaam" className="text-muted-foreground hover:text-primary">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary">
+              <Link href="https://www.linkedin.com/in/raj-priyadershi-56a256282/" className="text-muted-foreground hover:text-primary">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
+              </Link>
+              <Link href="https://devnaam4s.vercel.app/" className="text-muted-foreground hover:text-primary">
+                <span className="text-sm">Portfolio</span>
               </Link>
             </div>
           </div>
@@ -38,8 +37,7 @@ export default function Footer() {
               <li>
                 <Link href="/quiz" className="text-muted-foreground hover:text-primary">
                   Skill Quiz
-                </Link>
-              </li>
+                </li>
               <li>
                 <Link href="/careers" className="text-muted-foreground hover:text-primary">
                   Career Paths
@@ -48,9 +46,8 @@ export default function Footer() {
               <li>
                 <Link href="/resources" className="text-muted-foreground hover:text-primary">
                   Learning Resources
-                </Link>
-              </li>
-            </ul>
+                </li>
+              </ul>
           </div>
 
           <div>
